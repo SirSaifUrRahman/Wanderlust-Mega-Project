@@ -8,6 +8,8 @@ Run the following command to get the IP address of your `kind` container:
 ```bash
 docker inspect -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' <docker-container-id/name>
 ```
-And remove following jenkin stage if you are using kind
-stage('Exporting environment variables')
+if you are using kind, remove following jenkin stage
+"stage('Exporting environment variables')"
+
+
 
