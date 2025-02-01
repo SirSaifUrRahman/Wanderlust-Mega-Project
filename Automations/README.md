@@ -1,7 +1,11 @@
 ## Running Kubernetes in Docker (kind)
 
-If you are running Kubernetes in Docker using `kind`, follow these steps to retrieve the Docker container IP and update the environment files:\n
+If you are running Kubernetes in Docker using `kind`, follow these steps to retrieve the Docker container IP and update the environment files:
+
+
 Environment files exists in the directory
+
+
 ```/backend/.env.docker && /frontend/.env.docker```
 
 ### Step 1: Get the Docker Container IP
