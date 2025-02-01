@@ -2,9 +2,7 @@
 
 If you are running Kubernetes in Docker using `kind`, follow these steps to retrieve the Docker container IP and update the environment files:
 
-
 Environment files exists in the directory
-
 
 ```/backend/.env.docker && /frontend/.env.docker```
 
