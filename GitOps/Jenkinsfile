@@ -57,7 +57,7 @@ pipeline {
             steps{
                 script{
                     // Check github-cred id
-                    withCredentials([gitUsernamePassword(credentialsId: 'Github-cred', gitToolName: 'Default')]) {
+                    withCredentials([gitUsernamePassword(credentialsId: 'github', gitToolName: 'Default')]) {
                         sh '''
                         echo "Checking repository status: "
                         git status
